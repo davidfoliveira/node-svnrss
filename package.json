@@ -1,0 +1,28 @@
+{
+  "author": "David Oliveira <d.oliveira@prozone.org>",
+  "name": "svnrss",
+  "description": "A simple webserver with a single route for returning the RSS feed of a specific project/branch",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/davidfoliveira/node-svnrss/"
+  },
+  "main": "./lib/svnrss.js",
+  "bin": {
+    "svnrss_server.js": "./bin/svnrss_server.js"
+  },
+  "dependencies": {
+    "spritz": ">=0.5.5",
+    "rss": ">=1.2.1"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "license": "Copyleft",
+  "engines": {
+    "node": ">=0.10.5"
+  },
+  "keywords": [
+    "rss",
+    "svn"
+  ]
+}
